@@ -1,1 +1,6 @@
-Hello world!
+.max-w-md.mx-auto.mt-8.p-4
+  - @blogs.each do |blog|
+    .card.bg-base-100.w-80.shadow-sm
+      .card-body
+        %h2{class: "card-title"}= blog.title
+        %h3= blog.description

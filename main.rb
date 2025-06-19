@@ -12,5 +12,7 @@ set :haml, :format => :html5
 require_relative 'models/blog'
 
 get "/" do
+  @blogs = Blog.order_by(:title => 1).limit(10).only(:title, :description)
+
   haml :index
 end
