@@ -9,6 +9,8 @@ set :haml, :format => :html5
 
 # Views
 
+require_relative 'models/blog'
+
 get "/" do
-  'welcome!'
+  haml :index
 end
