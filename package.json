@@ -1,0 +1,19 @@
+{
+  "name": "orange_tree",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx @tailwindcss/cli -i src/app.css -o public/css/output.css",
+    "watch:css": "npx @tailwindcss/cli -i src/app.css -o public/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "daisyui": "^5.0.43",
+    "tailwindcss": "^4.1.10"
+  }
+}

@@ -3,6 +3,10 @@
     %title Orange_Tree
     %meta{charset: "utf-8"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %link{rel: "stylesheet", href: "/css/output.css"}
     %script{defer: true, src: "https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"}
   %body
-    != yield
+    %div
+      %div.navbar.bg-base-100.shadow-sm
+        %a.btn.btn-ghost.text-xl Orange_Tree
+      != yield
