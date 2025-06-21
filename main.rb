@@ -24,3 +24,21 @@ get "/blog/:id" do
 
   haml :blog
 end
+
+# HELPERS
+
+def markdown_renderer
+  @markdown_renderer ||= Redcarpet::Markdown.new(
+    Redcarpet::Render::HTML,
+    autolink: true,
+    tables: true,
+    fenced_code_blocks: true,
+    strikethrough: true,
+    highlight: true,
+    footnotes: true
+  )
+end
+
+def render_markdown(text)
+  markdown_renderer.render(text)
+end
