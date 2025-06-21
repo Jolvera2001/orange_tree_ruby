@@ -271,3 +271,4 @@ dist
 .pnp.*
 
 ./public/css/output.css
+/public/css/output.css
