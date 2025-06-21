@@ -22,6 +22,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.6.9, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.3.5, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.5.3, ruby-3.4.4-p34) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dotenv (v3.1.8, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.3, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v6.3.0, ruby-3.4.4-p34) [gem]" level="application" />
@@ -35,6 +36,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mongoid (v9.0.6, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mustermann (v3.0.3, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.7.4, ruby-3.4.4-p34) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.18.8, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parallel (v1.27.0, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parser (v3.3.8.0, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="prism (v1.4.0, ruby-3.4.4-p34) [gem]" level="application" />
@@ -46,11 +48,13 @@
     <orderEntry type="library" scope="PROVIDED" name="rackup (v2.2.1, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rainbow (v3.1.1, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.3.0, ruby-3.4.4-p34) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redcarpet (v3.6.1, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.10.0, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.76.1, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.45.1, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.13.0, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby2_keywords (v0.0.5, ruby-3.4.4-p34) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sanitize (v7.0.0, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="securerandom (v0.4.1, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v4.1.1, ruby-3.4.4-p34) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="temple (v0.10.3, ruby-3.4.4-p34) [gem]" level="application" />
