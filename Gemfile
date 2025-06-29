@@ -3,7 +3,6 @@ source "https://rubygems.org"
 ruby "3.4.4"
 
 gem 'roda'
-gem 'puma' # use this for local dev work
 gem "falcon"
 gem "rackup"
 
