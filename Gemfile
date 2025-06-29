@@ -1,18 +1,19 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
+source 'https://rubygems.org'
 
-ruby "3.4.4"
+ruby '3.4.4'
 
+gem 'falcon'
+gem 'rackup'
 gem 'roda'
-gem "falcon"
-gem "rackup"
 
-gem "haml"
+gem 'haml'
 gem 'mongoid'
 gem 'redcarpet'
 gem 'sanitize'
 
-gem "rake"
-gem "bcrypt", "~> 3.1"
-gem 'dotenv', groups: [:development, :test]
+gem 'bcrypt', '~> 3.1'
+gem 'dotenv', groups: %i[development test]
+gem 'rake'
 gem 'rubocop', group: 'development', require: false
 
